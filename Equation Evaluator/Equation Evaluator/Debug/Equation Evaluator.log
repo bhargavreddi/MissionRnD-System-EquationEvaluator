@@ -1,0 +1,26 @@
+﻿Build started 04/07/2016 17:47:23.
+     1>Project "C:\Users\Bhargav Reddi\Documents\Visual Studio 2013\Projects\Equation Evaluator\Equation Evaluator\Equation Evaluator.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>c:\users\bhargav reddi\documents\visual studio 2013\projects\equation evaluator\equation evaluator\source.cpp(25): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\bhargav reddi\documents\visual studio 2013\projects\equation evaluator\equation evaluator\source.cpp(48): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\bhargav reddi\documents\visual studio 2013\projects\equation evaluator\equation evaluator\source.cpp(58): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\bhargav reddi\documents\visual studio 2013\projects\equation evaluator\equation evaluator\source.cpp(82): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\bhargav reddi\documents\visual studio 2013\projects\equation evaluator\equation evaluator\source.cpp(94): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(283) : see declaration of 'scanf'
+     1>c:\users\bhargav reddi\documents\visual studio 2013\projects\equation evaluator\equation evaluator\source.cpp(105): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\bhargav reddi\documents\visual studio 2013\projects\equation evaluator\equation evaluator\source.cpp(71): warning C4715: 'equationEval' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Bhargav Reddi\Documents\Visual Studio 2013\Projects\Equation Evaluator\Debug\Equation Evaluator.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Bhargav Reddi\Documents\Visual Studio 2013\Projects\Equation Evaluator\Debug\Equation Evaluator.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Bhargav Reddi\Documents\Visual Studio 2013\Projects\Equation Evaluator\Debug\Equation Evaluator.lib" /MACHINE:X86 Debug\Source.obj
+         Equation Evaluator.vcxproj -> C:\Users\Bhargav Reddi\Documents\Visual Studio 2013\Projects\Equation Evaluator\Debug\Equation Evaluator.exe
+     1>Done Building Project "C:\Users\Bhargav Reddi\Documents\Visual Studio 2013\Projects\Equation Evaluator\Equation Evaluator\Equation Evaluator.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.39
